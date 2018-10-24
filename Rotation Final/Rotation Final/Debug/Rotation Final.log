@@ -1,0 +1,20 @@
+﻿  Body.cpp
+c:\users\julie\desktop\rotation final\rotation final\body.cpp(53): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\julie\desktop\rotation final\rotation final\body.cpp(55): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\julie\desktop\rotation final\rotation final\body.cpp(56): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\julie\desktop\rotation final\rotation final\body.cpp(61): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\julie\desktop\rotation final\rotation final\body.cpp(62): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+c:\users\julie\desktop\rotation final\rotation final\main.cpp(46): error C2664: 'void Body::ApplyForce(Vector2D &)': cannot convert argument 1 from 'Vector2D' to 'Vector2D &'
+  c:\users\julie\desktop\rotation final\rotation final\main.cpp(46): note: A non-const reference may only be bound to an lvalue
+c:\users\julie\desktop\rotation final\rotation final\main.cpp(51): error C2664: 'void Body::ApplyForce(Vector2D &)': cannot convert argument 1 from 'Vector2D' to 'Vector2D &'
+  c:\users\julie\desktop\rotation final\rotation final\main.cpp(51): note: A non-const reference may only be bound to an lvalue
+c:\users\julie\desktop\rotation final\rotation final\main.cpp(57): error C2664: 'void Body::ApplyForce(Vector2D &)': cannot convert argument 1 from 'Vector2D' to 'Vector2D &'
+  c:\users\julie\desktop\rotation final\rotation final\main.cpp(57): note: A non-const reference may only be bound to an lvalue
+  Vector2D.cpp
+c:\users\julie\desktop\rotation final\rotation final\vector2d.cpp(30): error C3490: 'y' cannot be modified because it is being accessed through a const object
+c:\users\julie\desktop\rotation final\rotation final\vector2d.cpp(31): error C3490: 'x' cannot be modified because it is being accessed through a const object
+  World.cpp
+c:\users\julie\desktop\rotation final\rotation final\world.cpp(29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\julie\desktop\rotation final\rotation final\world.cpp(30): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
